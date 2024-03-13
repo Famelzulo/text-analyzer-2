@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia</h1>
+
+        <div class="question">
+            <h2>1. ¿En qué deporte se juega la Copa del Mundo?</h2>
+            <input type="radio" name="q1" value="a">a) Basket<br>
+            <input type="radio" name="q1" value="b">b) Voley<br>
+            <input type="radio" name="q1" value="c">c) Tenis<br>
+            <input type="radio" name="q1" value="d">d) Futbol<br>
+        </div>
+
+        <div class="question">
+            <h2>2. ¿Cuál de los siguientes eventos es una competencia de atletismo?</h2>
+            <input type="radio" name="q2" value="a">a) Tour de Francia<br>
+            <input type="radio" name="q2" value="b">b) Super Bowl<br>
+            <input type="radio" name="q2" value="c">c) Juegos Olímpicos <br>
+            <input type="radio" name="q2" value="d">d) Copa Mundial de Rugby <br>
+        </div>
+
+        <div class="question">
+            <h2>3. ¿Cuál de los siguientes jugadores es famoso en el mundo del baloncesto?</h2>
+            <input type="radio" name="q3" value="a">a) Tom Brady<br>
+            <input type="radio" name="q3" value="b">b) Cristiano Ronaldo<br>
+            <input type="radio" name="q3" value="c">c) Lionel Messi<br>
+            <input type="radio" name="q3" value="d">d) LeBron James
+        </div>
+
+        <div class="question">
+            <h2>4. ¿En qué deporte se utiliza un palo llamado "stick" para golpear una pelota?</h2>
+            <input type="radio" name="q4" value="a">a) Golf<br>
+            <input type="radio" name="q4" value="b">b) Hockey sobre hielo<br>
+            <input type="radio" name="q4" value="c">c) Tenis<br>
+            <input type="radio" name="q4" value="d">d) Rugby<br>
+        </div>
+
+        <div class="question">
+            <h2>5. ¿Cuál de las siguientes ciudades ha sido sede de los Juegos Olímpicos de Verano?</h2>
+            <input type="radio" name="q5" value="a">a) Vancouver<br>
+            <input type="radio" name="q5" value="b">b) Rio de Janeiro<br>
+            <input type="radio" name="q5" value="c">c) Sochi<br>
+            <input type="radio" name="q5" value="d">d) Alemania<br>
+        </div>
+
+        <div class="question">
+            <h2>6. ¿Qué deporte se juega en un campo llamado "diamond" y tiene bases y home plate?</h2>
+            <input type="radio" name="q6" value="a">a) Beisbol<br>
+            <input type="radio" name="q6" value="b">b) Futbol Americano<br>
+            <input type="radio" name="q6" value="c">c) Cricket<br>
+            <input type="radio" name="q6" value="d">d) Baloncesto<br>
+        </div>
+
+        <div class="question">
+            <h2>7. ¿Cuál de los siguientes eventos es una competición de deportes acuáticos?</h2>
+            <input type="radio" name="q7" value="a">a) Wimbledon<br>
+            <input type="radio" name="q7" value="b">b) Tour de Francia<br>
+            <input type="radio" name="q7" value="c">c) Copa del Mundo de Futbol<br>
+            <input type="radio" name="q7" value="d">d) Campeonato Mundial de Natación<br>
+        </div>
+
+        <button onclick="checkAnswers()">Responder y ver resultados</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
